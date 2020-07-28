@@ -22,6 +22,6 @@
 - [黄同学的文档库](https://docs.mahoo12138.cn/)
 - [黄同学的备忘录](https://cmd.mahoo12138.cn/)
 
-### [docsify 文档生成教程](https://docs.irudder.me/#/?id=docsify-文档生成教程)
+### docsify 文档生成教程
 
 - https://docsify.js.org/#/zh-cn/
