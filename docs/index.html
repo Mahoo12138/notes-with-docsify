@@ -2,52 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>黄同学的笔记</title>
+  <title>黄同学的笔记本</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  
-  <!-- markdown 样式微调 -->
-  <style>
-   .markdown-section h3{font-size:1.5rem;margin:0 !important}
-   .markdown-section blockquote {background-color: rgba(66, 185, 131, .1);margin: 1.5em 0;padding: 5px 15px;}
-   .markdown-section pre {border: 1px solid #F4F4F4;line-height: 1.43rem;background-color: #F8F8F8 !important;border-radius: 4px;}
-  </style>
-  
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-	  routerMode: 'history',
+      name: '黄同学的笔记本',
+      repo: '',
 	  loadSidebar: true,
 	  loadNavbar: true,
-	  subMaxLevel: 4,
-	  maxLevel: 4,
 	  coverpage: true,
-	  name: '黄同学的笔记',
-      repo: '',
-	  search: {
-		  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-		  paths: [], // or 'auto'
-		  placeholder: '点击这里搜索',
-		  noData: '搜索无结果!',
-		  // 搜索标题的最大层级, 1 - 6
-		  depth: 2,
-	  }
-    
-	}
+	  auto2top: true,
+	  autoHeader: true,
+	  
+	  count:{
+		countable: true,
+		fontsize: '0.9em',
+		color: 'rgb(90,90,90)',
+		language: 'chinese'
+	  },
+	  autoFooter: {
+        name: 'Mahoo12138',
+        url: 'https://Mahoo12138.cn',
+        copyYear: '2020',
+        policy:   'test',
+        terms:    'test'
+    }
+    }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src=""></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-
-
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 </html>
