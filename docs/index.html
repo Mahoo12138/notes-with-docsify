@@ -15,6 +15,7 @@
     window.$docsify = {
       name: '黄同学的笔记本',
       repo: '',
+	  topMargin: 70, // default: 0
 	  loadSidebar: true,
 	  loadNavbar: true,
 	  coverpage: true,
@@ -33,12 +34,19 @@
         copyYear: '2020',
         policy:   'test',
         terms:    'test'
-    }
+	  },
+	  pagination: {
+		previousText: '上一章',
+		nextText: '下一章',
+		crossChapter: true,
+		crossChapterText: true,
+  },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src=""></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 </html>
