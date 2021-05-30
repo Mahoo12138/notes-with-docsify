@@ -17,6 +17,7 @@
       repo: '',
 	  topMargin: 70, // default: 0
 	  loadSidebar: true,
+	  subMaxLevel: 6,
 	  loadNavbar: true,
 	  coverpage: true,
 	  auto2top: true,
@@ -39,17 +40,21 @@
         terms:    'test'
 	  },
 	  pagination: {
-		previousText: '上一章',
-		nextText: '下一章',
+		previousText: '上一节',
+		nextText: '下一节',
 		crossChapter: true,
 		crossChapterText: true,
-  },
+	  },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-c.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-shell-session.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-matlab.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 </html>
