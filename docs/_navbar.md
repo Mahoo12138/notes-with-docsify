@@ -9,8 +9,3 @@
   + [文档库](https://docs.mahoo12138.cn/)
   + [备忘录](https://cmd.mahoo12138.cn/)
 
-+ 其他
-  + [博客](https://mahoo12138.cn/)
-  + [文档库](https://docs.mahoo12138.cn/)
-  + [备忘录](https://cmd.mahoo12138.cn/)
-

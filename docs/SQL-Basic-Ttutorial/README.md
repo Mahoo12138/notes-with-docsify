@@ -1,11 +1,9 @@
-# SQL 基础教程
-
 > 本页内容主要是在阅读该书时，所摘录或记录的笔记，该书面向完全没有编程和系统开发经验的初学者，介绍了关系数据库以及用来操作关系数据库的 SQL 语言的使用方法。 
 
 
 ## 绪论
 
-### PostgreSQL的安装和连接设置
+### PostgreSQL的配置
 
 + 安装步骤
 
@@ -13,9 +11,9 @@
 
 + 修改设置文件
 
-  打开`安装路径\PostgreSQL\版本号\data\postgresql.conf`，可以进行一些基本配置，如可以设置**listen_addresses = 'localhost'**，这样就设置成只允许本地机器进行连接。
+  打开`安装路径\PostgreSQL\版本号\data\postgresql.conf`，可以进行一些基本配置，如可以设置 listen_addresses = 'localhost' ，这样就设置成只允许本地机器进行连接。
 
-### 通过PostgreSQL执行SQL语句
+### 执行SQL语句
 
 + 连接PostgreSQL（登录）
 
@@ -29,7 +27,7 @@
 
   键入 SQL 语句`SELECT 1;  `，返回 *?column? 1 (1 行记录)*，则测试正常。
 
-  > “;”是 SQL 的结束符，如果没有输入的话，即使按下回车键，SQL 语句也不会执行。  
+  > “;”是 SQL 的结束符，如果没有输入的话，即使按下回车键，SQL 语句也不会执行；使用`\q`退出；
 
 + 创建学习用的数据库
 
